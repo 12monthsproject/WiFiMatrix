@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# 打包产物（发布时 DMG 挂到 GitHub Releases，不入库）
+WiFiMatrixApp/.venv/
+WiFiMatrixApp/build/
+WiFiMatrixApp/dist/
+WiFiMatrixApp/.tmp/
+*.dmg
+*.spec
+
+# 图标中间产物（icon.png 为源图，iconset/icns 由脚本生成）
+WiFiMatrixApp/assets/icon.iconset/
+WiFiMatrixApp/assets/icon.icns
+
+# 根目录冗余图标源（正式源图在 WiFiMatrixApp/assets/icon.png）
+/icon.png
+
+# 打包时由脚本从根目录复制过来的源码副本（唯一来源是根目录 wifi_monitor.py）
+WiFiMatrixApp/wifi_monitor.py
+
+# 系统与编辑器
+.DS_Store
+*.swp
+.claude/
