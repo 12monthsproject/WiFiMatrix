@@ -24,3 +24,7 @@ WiFiMatrixApp/wifi_monitor.py
 .DS_Store
 *.swp
 .claude/
+
+# 临时构建输出（独立 dist130/build130 等）
+WiFiMatrixApp/dist*/
+WiFiMatrixApp/build*/
